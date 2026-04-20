@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+================================================================================
+DATEI: requirements.txt
+PROJEKT: A2A-SIN-Worker-microworkers
+ZWECK: Alle benötigten Python-Bibliotheken
+
+WICHTIG FÜR ENTWICKLER:
+Installieren Sie ALLE Abhängigkeiten vor dem Start:
+pip install -r requirements.txt
+
+Fehlende Bibliotheken führen zu sofortigen Abstürzen!
+================================================================================
+"""
+
+# Browser-Automatisierung mit Stealth-Fähigkeiten
+# WARUM nodriver: Besser als Selenium/Puppeteer für Anti-Bot
+nodriver>=0.9.0
+
+# Asynchrone HTTP-Requests für API-Calls
+aiohttp>=3.9.0
+
+# Bildverarbeitung für Screenshots und OCR
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Nützliche Utilities
+python-dotenv>=1.0.0  # Für Umgebungsvariablen (.env Dateien)
+
+# Optional: Für erweiterte Bildanalyse
+# easyocr>=1.7.0  # Wenn OCR benötigt wird
+
+# Global Brain Sync (OpenSIN Infrastruktur)
+requests>=2.31.0
